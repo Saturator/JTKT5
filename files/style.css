@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 70px;
+    color: cadetblue;
+}
+
+.smaller {
+    font-family: 'Merriweather', serif;
+}
+
+.chart {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
