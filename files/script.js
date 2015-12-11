@@ -32,34 +32,46 @@ $(document).ready(function() {
     var ctx1 = $('#chart1').get(0).getContext("2d");
     var data1 = [
         {
-            value: 100,
+            value: 1,
             color:"#EE2455",
             highlight: "#EE5279",
             label: "Algoritmit"
         },
         {
-            value: 100,
+            value: 1,
             color: "#5AD8B7",
             highlight: "#8DCAD9",
             label: "Teköäly"
         },
         {
-            value: 100,
+            value: 1,
             color: "#8CCE47",
             highlight: "#AACE7C",
             label: "Tiedon louhinta"
         },
         {
-            value: 50,
+            value: 0.5,
             color: "#66BEC4",
             highlight: "#8CBCC4",
             label: "Luonnollisten kielten käsittely"
         },
         {
-            value: 50,
+            value: 0.5,
             color: "#09A603",
             highlight: "#65A665",
             label: "Konenäkö"
+        },
+        {
+            value: 0.5,
+            color: "#F7A58C",
+            highlight: "#F7C1B0",
+            label: "Laskennallinen tiede"
+        },
+        {
+            value: 0.5,
+            color: "#AB3775",
+            highlight: "#AB6B8C",
+            label: "Tiedonhaku"
         }
     ];
 
@@ -68,34 +80,40 @@ $(document).ready(function() {
     var ctx2 = $('#chart2').get(0).getContext("2d");
     var data2 = [
         {
-            value: 100,
+            value: 1,
             color:"#605B6E",
             highlight: "#78737F",
             label: "Tietoturva"
         },
         {
-            value: 100,
+            value: 1,
             color: "#AB3775",
             highlight: "#AB6B8C",
             label: "Tiedonhaku"
         },
         {
-            value: 100,
+            value: 1,
             color: "#382C90",
             highlight: "#595390",
             label: "Tietoverkot"
         },
         {
-            value: 50,
+            value: 0.5,
             color: "#45B47E",
             highlight: "#7EB493",
             label: "Tietokannat"
         },
         {
-            value: 100,
+            value: 0.5,
             color: "#F9A91B",
             highlight: "#F9C364",
             label: "Hajautettu tietojenkäsittely"
+        },
+        {
+            value: 0.5,
+            color: "#AC73E8",
+            highlight: "#AC73E8",
+            label: "Käyttöjärjestelmät"
         }
     ];
     var chart2 = new Chart(ctx2).Doughnut(data2,options);
@@ -103,34 +121,46 @@ $(document).ready(function() {
     var ctx3 = $('#chart3').get(0).getContext("2d");
     var data3 = [
         {
-            value: 100,
+            value: 1,
             color:"#F77A52",
             highlight: "#F7A58C",
             label: "Työnkulku"
         },
         {
-            value: 100,
+            value: 1,
             color: "#56C6D9",
             highlight: "#8DCAD9",
             label: "Ohjelmistotekniikka"
         },
         {
-            value: 50,
+            value: 0.5,
             color: "#45B47E",
             highlight: "#7EB493",
             label: "Tietokannat"
         },
         {
-            value: 50,
+            value: 0.5,
             color: "#AC73E8",
             highlight: "#AC73E8",
             label: "Käyttöjärjestelmät"
         },
         {
-            value: 100,
+            value: 1,
             color: "#F9D71F",
             highlight: "#F9E572",
             label: "Ohjelmointikielet"
+        },
+        {
+            value: 0.5,
+            color: "#AB3775",
+            highlight: "#AB6B8C",
+            label: "Tiedonhaku"
+        },
+        {
+            value: 0.5,
+            color: "#2AC8B2",
+            highlight: "#8EC8B9",
+            label: "Ihmisen ja tietokoneen välilnen vuorovaikutus"
         }
     ];
     var chart3 = new Chart(ctx3).Doughnut(data3,options);
@@ -138,28 +168,28 @@ $(document).ready(function() {
     var ctx4 = $('#chart4').get(0).getContext("2d");
     var data4 = [
         {
-            value: 100,
+            value: 1,
             color:"#EE2455",
             highlight: "#EE5279",
             label: "Algoritmit"
         },
         {
-            value: 100,
+            value: 1,
             color: "#F7A58C",
             highlight: "#F7C1B0",
             label: "Laskennallinen tiede"
         },
         {
-            value: 100,
+            value: 1,
             color: "#8CCE47",
             highlight: "#AACE7C",
             label: "Tiedon louhinta"
         },
         {
-            value: 50,
-            color: "#F9D71F",
-            highlight: "#F9E572",
-            label: "Ohjelmointikielet"
+            value: 0.5,
+            color: "#45B47E",
+            highlight: "#7EB493",
+            label: "Tietokannat"
         }
     ];
     var chart4 = new Chart(ctx4).Doughnut(data4,options);
